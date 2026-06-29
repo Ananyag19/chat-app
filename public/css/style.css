@@ -1,0 +1,13 @@
+* { margin: 0; padding: 0; box-sizing: border-box; font-family: Arial, sans-serif; }
+body { background: #f0f2f5; height: 100vh; display: flex; flex-direction: column; }
+nav { background: #075e54; color: white; padding: 15px; display: flex; align-items: center; gap: 15px; }
+nav .logo { width: 40px; height: 40px; border-radius: 50%; }
+.container { flex: 1; padding: 20px; overflow-y: auto; display: flex; flex-direction: column; gap: 10px; }
+.message { padding: 10px 15px; border-radius: 10px; max-width: 60%; word-wrap: break-word; }
+.message.left { background: white; align-self: flex-start; }
+.message.right { background: #dcf8c6; align-self: flex-end; }
+.send { padding: 15px; background: white; border-top: 1px solid #ddd; }
+#send-container { display: flex; gap: 10px; }
+#messageInp { flex: 1; padding: 10px; border: 1px solid #ddd; border-radius: 20px; outline: none; }
+.btn { padding: 10px 20px; background: #075e54; color: white; border: none; border-radius: 20px; cursor: pointer; }
+.btn:hover { background: #0a7d6c; }

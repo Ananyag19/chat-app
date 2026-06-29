@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Chat App</title>
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="css/style.css" />
+
+  <!-- Socket.IO Client -->
+  <script src="http://localhost:8000/socket.io/socket.io.js" defer></script>
+
+  <!-- Your chat app JS -->
+  <script src="js/client.js" defer></script>
+</head>
+<body>
+
+  <nav>
+    <!-- Correct image path -->
+    <img src="/1.png" class="logo" alt="Logo" />
+    <h2>Chat App</h2>
+  </nav>
+
+  <div class="container"></div>
+
+  <div class="send">
+    <form id="send-container">
+      <input type="text" name="messageInp" id="messageInp" placeholder="Type a message..." autocomplete="off" />
+      <button class="btn" type="submit">Send</button>
+    </form>
+  </div>
+
+</body>
+</html>
